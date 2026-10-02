@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MM Consultancy Service</title>
+<meta name="description" content="MM Consultancy Service - Internship and certification services for students.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;color:#172033;background:#f7f9fc;line-height:1.6}
+header{background:linear-gradient(135deg,#173b8f,#2563eb);color:white;position:sticky;top:0;z-index:10;box-shadow:0 3px 15px #0002}
+.nav{max-width:1150px;margin:auto;padding:15px 22px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:25px;font-weight:800}
+.logo span{color:#ffd54a}
+nav a{color:white;text-decoration:none;margin-left:22px;font-weight:600}
+nav a:hover{color:#ffd54a}
+.hero{background:linear-gradient(135deg,#eaf2ff,#fff7dc);padding:85px 22px}
+.hero-inner{max-width:1150px;margin:auto;display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
+.badge{display:inline-block;background:#fff;border:1px solid #dbe5ff;padding:8px 14px;border-radius:30px;color:#2563eb;font-weight:700;margin-bottom:18px}
+h1{font-size:52px;line-height:1.1;color:#12306f;margin-bottom:18px}
+.hero p{font-size:19px;color:#475569;max-width:650px}
+.btn{display:inline-block;background:#2563eb;color:white;text-decoration:none;padding:13px 22px;border-radius:9px;font-weight:700;margin:25px 10px 0 0}
+.btn.alt{background:#f2b900;color:#172033}
+.hero-card{background:white;border-radius:22px;padding:30px;box-shadow:0 15px 40px #173b8f22}
+.hero-card h3{color:#173b8f;margin-bottom:12px}
+.stat{display:flex;gap:15px;align-items:center;padding:14px 0;border-bottom:1px solid #eee}
+.stat:last-child{border:0}
+.icon{font-size:28px}
+section{padding:70px 22px}
+.container{max-width:1150px;margin:auto}
+.title{text-align:center;margin-bottom:42px}
+.title h2{font-size:35px;color:#173b8f}
+.title p{color:#64748b;margin-top:8px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}
+.panel{background:white;border-radius:18px;padding:30px;box-shadow:0 8px 25px #17203312}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:white;padding:28px;border-radius:18px;border:1px solid #e7ecf5;box-shadow:0 8px 22px #1720330d;transition:.2s}
+.card:hover{transform:translateY(-5px);box-shadow:0 12px 30px #2563eb20}
+.card .big{font-size:38px}
+.card h3{margin:12px 0 8px;color:#173b8f}
+.card p{color:#64748b}
+.highlight{background:linear-gradient(135deg,#173b8f,#2563eb);color:white}
+.highlight .title h2,.highlight .title p{color:white}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:25px}
+.contact-item{padding:18px;background:#f7f9fc;border-radius:12px;margin:12px 0}
+footer{background:#101a33;color:#dbe5ff;text-align:center;padding:28px 20px}
+footer strong{color:white}
+@media(max-width:800px){
+ nav{display:none}
+ .hero-inner,.about,.contact{grid-template-columns:1fr}
+ h1{font-size:40px}
+ .cards{grid-template-columns:1fr}
+ .hero{padding:55px 18px}
+ section{padding:55px 18px}
+}
+</style>
+</head>
+<body>
+<header>
+<div class="nav">
+<div class="logo">MM <span>Consultancy Service</span></div>
+<nav>
+<a href="#home">Home</a><a href="#about">About</a><a href="#internships">Internships</a><a href="#services">Services</a><a href="#contact">Contact</a>
+</nav>
+</div>
+</header>
+
+<section class="hero" id="home">
+<div class="hero-inner">
+<div>
+<div class="badge">🎓 Student Career & Internship Support</div>
+<h1>Build Skills. Gain Experience. Grow Your Career.</h1>
+<p>MM Consultancy Service helps students gain practical exposure through internship programs and provides certification support after successful completion.</p>
+<a class="btn" href="#internships">Explore Internships</a>
+<a class="btn alt" href="#contact">Contact Us</a>
+</div>
+<div class="hero-card">
+<h3>Why Students Choose Us</h3>
+<div class="stat"><span class="icon">💻</span><div><b>Practical Learning</b><br>Experience-focused programs</div></div>
+<div class="stat"><span class="icon">📜</span><div><b>Certification</b><br>Certificate after completion</div></div>
+<div class="stat"><span class="icon">🚀</span><div><b>Career Growth</b><br>Build skills and confidence</div></div>
+</div>
+</div>
+</section>
+
+<section id="about">
+<div class="container">
+<div class="title"><h2>About MM Consultancy Service</h2><p>Supporting students with practical learning opportunities</p></div>
+<div class="about">
+<div class="panel">
+<h3>Our Mission</h3>
+<p>We aim to provide students with structured internship opportunities that help them understand real-world work environments, improve practical skills and strengthen their professional profiles.</p>
+</div>
+<div class="panel">
+<h3>What We Provide</h3>
+<p>Internship opportunities, learning support, certification services and career-oriented guidance designed for students and freshers.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="internships">
+<div class="container">
+<div class="title"><h2>Internship Programs</h2><p>Learn, practice and gain valuable experience.</p></div>
+<div class="cards">
+<div class="card"><div class="big">💻</div><h3>Technical Internships</h3><p>Programs designed to help students develop practical technical and computer-related skills.</p></div>
+<div class="card"><div class="big">📊</div><h3>Professional Skills</h3><p>Improve communication, teamwork, problem-solving and workplace readiness.</p></div>
+<div class="card"><div class="big">🏆</div><h3>Completion Certification</h3><p>Receive certification after successfully completing the applicable internship program.</p></div>
+</div>
+</div>
+</section>
+
+<section class="highlight" id="services">
+<div class="container">
+<div class="title"><h2>Our Services</h2><p>Student-focused services for academic and professional development.</p></div>
+<div class="cards">
+<div class="card"><div class="big">🎓</div><h3>Internship Assistance</h3><p>Guidance and opportunities for students looking to gain practical exposure.</p></div>
+<div class="card"><div class="big">📜</div><h3>Certification Services</h3><p>Certification support associated with successfully completed programs.</p></div>
+<div class="card"><div class="big">🤝</div><h3>Industry Collaboration</h3><p>We work toward collaboration opportunities that can broaden student learning exposure.</p></div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="container">
+<div class="title"><h2>Why Choose Us?</h2></div>
+<div class="cards">
+<div class="card"><h3>Student Friendly</h3><p>Simple and accessible programs designed around student needs.</p></div>
+<div class="card"><h3>Practical Focus</h3><p>Emphasis on learning through practical exposure and project-oriented activities.</p></div>
+<div class="card"><h3>Career Ready</h3><p>Build a stronger foundation of skills for future academic and professional opportunities.</p></div>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+<div class="title"><h2>Contact Us</h2><p>Get in touch with MM Consultancy Service.</p></div>
+<div class="contact">
+<div class="panel">
+<h3>MM Consultancy Service</h3>
+<div class="contact-item">📞 <b>Phone:</b> 9133199493</div>
+<div class="contact-item">✉️ <b>Email:</b> mutyalamahesh866@gmail.com</div>
+<div class="contact-item">📍 <b>Address:</b> Nemalipuri, Palnadu District, Andhra Pradesh</div>
+</div>
+<div class="panel">
+<h3>Interested in an Internship?</h3>
+<p>Contact us to learn more about available internship programs, eligibility, duration and certification.</p>
+<a class="btn" href="tel:9133199493">Call Now</a>
+<a class="btn alt" href="mailto:mutyalamahesh866@gmail.com">Email Us</a>
+</div>
+</div>
+</div>
+</section>
+
+<footer>
+<p>© 2026 <strong>MM Consultancy Service</strong>. All Rights Reserved.</p>
+<p>Internships • Certification Services • Student Support</p>
+</footer>
+</body>
+</html>
